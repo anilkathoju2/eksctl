@@ -7,6 +7,10 @@ metadata:
 
 managedNodeGroups:
   - name: eks-project
-    instanceTypes: ["m5.large","t3.small", "t3.medium","c5.large"]
+    instanceTypes: ["m5.large"]
+    # instanceTypes: ["m5.large","t3.small", "t3.medium","c5.large"]
     desiredCapacity: 2 # by default 3 ,if you are not giving
     spot: true
+
+
+
