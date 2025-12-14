@@ -7,9 +7,11 @@ metadata:
 
 managedNodeGroups:
   - name: eks-project
-    instanceTypes: ["t3.small"]
+    #instanceTypes: ["t3.small"]
+    instanceTypes: ["m7i-flex.large"]
     desiredCapacity: 3 # by default 3 ,if you are not giving
     spot: true
+
 
 
 
